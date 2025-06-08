@@ -20,7 +20,7 @@ final class AvailabilityViewDQS_Extension
 
         Info('selectChartItem');
         
-		//All flags are enabled to avoid compatibility issues during testing. In case of dev for delivery, only leave the necessary ones
+	//All flags are enabled to avoid compatibility issues during testing. In case of dev for delivery, only leave the necessary ones
         var bindFlags = BindingFlags::Instance |
                         BindingFlags::NonPublic |
                         BindingFlags::Static |
