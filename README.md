@@ -1,2 +1,2 @@
-# Axapta_Snippets
-X++ Snippets
+# Snippets Dynamics 365 Finance & Operations
+This is where all X++ scripts I find useful for D365 FO will be stored. If you have any questions, please feel free to submit an issue or a pull request.
