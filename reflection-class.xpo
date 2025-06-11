@@ -1,6 +1,6 @@
 /*
 Considerations:
-- In the following class we wanted to access PRIVATE properties of a class through an extension, this is not supported by the compiler so we had to resort to reflection techniques
+- In order to access PRIVATE properties of a class through an extension, we are going to rely on a reflection technique
 
 References:
 https://shootax.blogspot.com/2018/08/x-d365fo-reflection-getfield-not-return.html
@@ -9,7 +9,7 @@ https://daxonline.org/1579-how-to-access-call-private-protected-methods-variable
 */
 
 
-using System.Reflection; //Must be to implement reflection
+using System.Reflection; //Must have
 
 [ExtensionOf(classstr(AvailabilityView))]
 final class AvailabilityViewDQS_Extension
