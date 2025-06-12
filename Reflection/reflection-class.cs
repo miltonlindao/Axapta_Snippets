@@ -12,7 +12,7 @@ https://daxonline.org/1579-how-to-access-call-private-protected-methods-variable
 using System.Reflection; //Must have
 
 [ExtensionOf(classstr(AvailabilityView))]
-final class AvailabilityViewDQS_Extension
+final class AvailabilityViewDemo_Extension
 {
     public str selectChartItem(str _value)
     {
@@ -20,7 +20,7 @@ final class AvailabilityViewDQS_Extension
 
         Info('selectChartItem');
         
-	//All flags are enabled to avoid compatibility issues during testing. In case of dev for delivery, only leave the necessary ones
+		//All flags are enabled to avoid compatibility issues during testing. In case of dev for delivery, only leave the necessary ones
         var bindFlags = BindingFlags::Instance |
                         BindingFlags::NonPublic |
                         BindingFlags::Static |
